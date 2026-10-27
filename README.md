@@ -149,8 +149,8 @@ Vite dev server runs on http://localhost:5173 and already points at
   auto-detects Vite via `frontend/vercel.json`). Set env var `VITE_API_BASE_URL` to the
   deployed Render backend's URL.
 
-Live app: **TODO — add Vercel URL here after deploying**
-Backend API: **TODO — add Render URL here after deploying**
+Live app: **https://fwrdzgu0.vercel.app**
+Backend API: **https://fwrdzgu0.onrender.com** (interactive docs at `/docs`; note this is a free-tier Render service, so it may take 30-60s to wake up if idle)
 
 ## API
 
