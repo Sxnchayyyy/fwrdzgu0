@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: wind-forecast-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: "https://your-frontend.vercel.app"
